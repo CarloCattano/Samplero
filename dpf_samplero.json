@@ -1,0 +1,14 @@
+{
+    "dpf": {
+        "project": true,
+        "description": "PUREDATA Sampler test patch",
+        "maker": "Carlo",
+        "homepage": "https://charly.audio/plugin/dpf_mySamplero",
+        "plugin_uri": "lv2://charly.audio/lv2/dpf_mySamplero",
+        "version": "6, 6, 6",
+        "license": "WTFPL",
+        "midi_input": 1,
+        "midi_output": 0,
+        "plugin_formats": ["lv2_dsp","vst","jack"]
+    }
+}
