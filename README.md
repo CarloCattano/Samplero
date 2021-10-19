@@ -13,7 +13,7 @@ git clone https://github.com/CarloCattano/Samplero.git
 cd Samplero
 rm dpf_mySamplero -rf    #removes previous builds in case I dont deal with gitignore well
 hvcc Samplero.pd -o dpf_mySamplero -g dpf -n dpf_mySamplero -m dpf_samplero.json
-cd 
+cd dpf_mySamplero
 git clone https://github.com/DISTRHO/DPF.git dpf
 make
 cd bin
